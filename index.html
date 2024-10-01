@@ -1,54 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Guardian Alert</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Guardian Alert</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/app_logo.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/app_logo.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Bootslander
   * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Guardian Alert</h1>
+        </a>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Guardian Alert</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <!-- <ul>
+        <nav id="navmenu" class="navmenu">
+          <!-- <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#features">Features</a></li>
@@ -74,130 +96,253 @@
           </li>
           <li><a href="#contact">Contact</a></li>
         </ul> -->
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
 
-    </div>
-  </header>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg" />
 
-  <main class="main">
+        <div class="container">
+          <div class="row gy-4 justify-content-between">
+            <div
+              class="col-lg-4 order-lg-last hero-img"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <img
+                src="assets/img/iPhone 16 Pro mockup natural titanium.png"
+                class="img-fluid animated"
+                alt=""
+              />
+            </div>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
-
-      <div class="container">
-        <div class="row gy-4 justify-content-between">
-          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/mockup.png" class="img-fluid animated" alt="">
-          </div>
-
-          <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h1>Stay Safe with <span>Guardian Alert</span></h1>
-            <p>A women and child safety system, providing real-time alerts and GPS tracking at the press of a button.</p>
-            <div class="d-flex">
-              <a href="https://drive.google.com/file/d/1NKszzP--6TJyX-e3C7UnAKUzHHc_5pLj/view?usp=sharing" style="color: black; font-weight: 700;" class="btn-get-started">Download App</a>
-            
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-in"
+            >
+              <h1>Stay Safe with <span>Guardian Alert</span></h1>
+              <p>
+                A women and child safety system, providing real-time alerts and
+                GPS tracking at the press of a button.
+              </p>
+              <div class="d-flex">
+                <a
+                  href="https://drive.google.com/file/d/1NKszzP--6TJyX-e3C7UnAKUzHHc_5pLj/view?usp=sharing"
+                  style="color: black; font-weight: 700"
+                  class="btn-get-started"
+                  >Download App</a
+                >
+              </div>
             </div>
           </div>
+        </div>
 
+        <svg
+          class="hero-waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28 "
+          preserveAspectRatio="none"
+        >
+          <defs>
+            <path
+              id="wave-path"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            ></path>
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3"></use>
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0"></use>
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9"></use>
+          </g>
+        </svg>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-xl-center gy-5">
+            <div class="col-xl-5 content">
+              <h3>The Project</h3>
+              <h2>Guardian Alert: Enhancing Safety with Real-Time Alerts</h2>
+              <p>
+                Guardian Alert is an IoT-based women and child safety system
+                designed to provide immediate assistance in times of danger. By
+                pressing a button on the device, the user can instantly send an
+                alert notification to family members or friends, sharing their
+                real-time location through the mobile app.
+              </p>
+              <p>
+                The system includes GPS tracking, a panic button feature, and
+                integration with the Firebase Realtime Database to ensure fast
+                and reliable communication. Our goal is to empower individuals
+                with a tool that can offer peace of mind in everyday life or
+                emergencies.
+              </p>
+            </div>
+
+            <div class="col-xl-7">
+              <div class="row gy-4 icon-boxes">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box">
+                    <img
+                      src="assets/icons/person_pin_circle_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.png "
+                      alt=""
+                    />
+                    <h3>Live Location</h3>
+                    <p>
+                      Track the real-time location of the user with GPS,
+                      ensuring immediate access to their whereabouts in
+                      emergencies or unfamiliar areas.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <img
+                      src="assets/icons/mic_double_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.png"
+                      alt=""
+                    />
+                    <h3>Voie Record</h3>
+                    <p>
+                      Automatically records short voice clips when the alert is
+                      triggered, offering an additional layer of security and
+                      evidence during critical situations.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <img
+                      src="assets/icons/notification_important_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.png"
+                      alt=""
+                    />
+                    <h3>Alert</h3>
+                    <p>
+                      Send an instant alert to pre-selected contacts with one
+                      button press, notifying them of potential danger and the
+                      user’s current location.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                    <img
+                      src="assets/icons/phone_in_talk_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.png"
+                      alt=""
+                    />
+                    <h3>Emergency</h3>
+                    <p>
+                      Quickly place an emergency call to a designated contact or
+                      local authorities directly from the app for immediate
+                      assistance.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <div class="container d-flex flex-column align-items-center">
+        <h1 class="mt-5 text-center">LIVE DEMO</h1>
+        <video class="video-style" autoplay loop muted>
+          <source src="assets/live_demo.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="container" style="margin-top: 30px">
+        <div class="row">
+          <h1 class="" style="text-align: center">Project Gallery</h1>
+          <div class="col-md-4 mt-3 col-lg-4">
+            <img
+              src="assets/img/project_gllery/WhatsApp Image 2024-10-01 at 10.40.50_95978200.jpg"
+              class="img-fluid"
+              alt="image"
+            />
+          </div>
+          <div class="col-md-4 mt-3 col-lg-4">
+            <img
+              src="assets/img/project_gllery/WhatsApp Image 2024-10-01 at 10.45.38_f47f30be.jpg"
+              class="img-fluid"
+              alt="image"
+            />
+          </div>
+          <div class="col-md-4 mt-3 col-lg-4">
+            <img
+              src="assets/img/project_gllery/image3.jpg"
+              class="img-fluid"
+              alt="image"
+            />
+          </div>
+          <div class="col-md-4 mt-3 col-lg-6">
+            <img
+              src="assets/img/project_gllery/image4.jpg"
+              class="img-fluid"
+              alt="image"
+            />
+          </div>
+          <div class="col-md-4 mt-3 col-lg-6">
+            <img
+              src="assets/img/project_gllery/img 5.jpg"
+              class="img-fluid"
+              alt="image"
+            />
+          </div>
         </div>
       </div>
 
-      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-        <defs>
-          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
-        </defs>
-        <g class="wave1">
-          <use xlink:href="#wave-path" x="50" y="3"></use>
-        </g>
-        <g class="wave2">
-          <use xlink:href="#wave-path" x="50" y="0"></use>
-        </g>
-        <g class="wave3">
-          <use xlink:href="#wave-path" x="50" y="9"></use>
-        </g>
-      </svg>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-xl-center gy-5">
-
-          <div class="col-xl-5 content">
-            <h3>The Project</h3>
-            <h2>Guardian Alert: Enhancing Safety with Real-Time Alerts</h2>
-            <p> Guardian Alert is an IoT-based women and child safety system designed to provide immediate assistance in times of danger. By pressing a button on the device, the user can instantly send an alert notification to family members or friends, sharing their real-time location through the mobile app. </p>
-           <p>   The system includes GPS tracking, a panic button feature, and integration with the Firebase Realtime Database to ensure fast and reliable communication. Our goal is to empower individuals with a tool that can offer peace of mind in everyday life or emergencies.
-           </p>
-           
-          </div>
-
-          <div class="col-xl-7">
-            <div class="row gy-4 icon-boxes">
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box">
-                  <img src="assets/icons/person_pin_circle_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.png " alt="">
-                  <h3>Live Location</h3>
-                  <p>Track the real-time location of the user with GPS, ensuring immediate access to their whereabouts in emergencies or unfamiliar areas.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <img src="assets/icons/mic_double_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.png" alt="">
-                  <h3>Voie Record</h3>
-                  <p>Automatically records short voice clips when the alert is triggered, offering an additional layer of security and evidence during critical situations.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-               <img src="assets/icons/notification_important_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.png" alt="">
-                  <h3>Alert</h3>
-                  <p>Send an instant alert to pre-selected contacts with one button press, notifying them of potential danger and the user’s current location.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                 <img src="assets/icons/phone_in_talk_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.png" alt="">
-                  <h3>Emergency</h3>
-                  <p>Quickly place an emergency call to a designated contact or local authorities directly from the app for immediate assistance.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
+      <div
+        class="container-fluid"
+        style="margin-top: 16rem; margin-bottom: 8rem"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h5>Project By HND IT 63</h5>
             </div>
           </div>
-
         </div>
       </div>
+      <!-- Scroll Top -->
+      <a
+        href="#"
+        id="scroll-top"
+        class="scroll-top d-flex align-items-center justify-content-center"
+        ><i class="bi bi-arrow-up-short"></i
+      ></a>
 
-    </section><!-- /About Section -->
+      <!-- Preloader -->
+      <div id="preloader"></div>
 
-   
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+      <!-- Main JS File -->
+      <script src="assets/js/main.js"></script>
+    </main>
+  </body>
 </html>
