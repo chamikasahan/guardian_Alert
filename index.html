@@ -262,7 +262,19 @@
       </section>
       <!-- /About Section -->
 
-
+      <div class="container mt-5">
+        <h2 class="mb-4">Our Video</h2>
+        <div class="d-flex justify-content-center">
+          <iframe
+            width="900"
+            height="500"
+            src="https://www.youtube.com/embed/ZijAuorUgwk"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
 
       <div class="container" style="margin-top: 30px">
         <div class="row">
@@ -341,29 +353,47 @@
     </main>
 
     <!-- Vote Modal -->
-<div class="modal fade" id="voteModal" tabindex="-1" aria-labelledby="voteModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="voteModalLabel">Vote for Us!</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <h3>Support our project "<strong>SafeGuard Alert IoT" - Group 05</strong> by voting for us!</h3>
-      </div>
-      <div class="modal-footer">
-        <img src="assets/app_logo.png" style="width: 100%;" alt="">
+    <div
+      class="modal fade"
+      id="voteModal"
+      tabindex="-1"
+      aria-labelledby="voteModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="voteModalLabel">Vote for Us!</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>
+              Support our project "<strong
+                >SafeGuard Alert IoT" - Group 05</strong
+              >
+              by voting for us!
+            </h3>
+          </div>
+          <div class="modal-footer">
+            <img src="assets/app_logo.png" style="width: 100%" alt="" />
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- JavaScript to show modal on page load -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var voteModal = new bootstrap.Modal(document.getElementById('voteModal'));
-    voteModal.show();
-  });
-</script>
+    <!-- JavaScript to show modal on page load -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var voteModal = new bootstrap.Modal(
+          document.getElementById("voteModal")
+        );
+        voteModal.show();
+      });
+    </script>
   </body>
 </html>
